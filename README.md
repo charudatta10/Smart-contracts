@@ -1,6 +1,15 @@
 # Tech interview smart contracts coding problem
 
+![Version](https://img.shields.io/github/v/release/charudatta10/Smart-contracts)
+
 This is a Solidity coding problem for tech interviews. It is designed to take **no more than a few hours**.
+
+## Features
+
+- Mintable ERC-20 `Token` contract (similar to Wrapped ETH): deposit ETH to mint, burn tokens to withdraw ETH.
+- Dividend payments in ETH assigned to token holders in proportion to their balance relative to total supply.
+- Gas-efficient tracking of individual token holder addresses for dividend payouts.
+- Hardhat unit test suite covering token and dividend behaviour.
 
 ## Getting setup
 
@@ -14,6 +23,12 @@ Ensure you have installed:
 ### 1. Setup
 
 Clone the repo locally and install the NPM dependencies using npm:
+
+```bash
+git clone https://github.com/charudatta10/Smart-contracts.git
+cd Smart-contracts
+npm install
+```
 
 ### 2. Task
 
@@ -40,3 +55,27 @@ Record a short [Loom video](https://www.loom.com) showing how it works, includin
 ### 4. Deadline
 
 Please complete and submit the result within 1 ~ 2 hours unless otherwise discussed.
+
+## Usage examples
+
+Run the unit tests (Hardhat):
+
+```bash
+npm run test
+```
+
+Compile the contracts:
+
+```bash
+npm run compile
+```
+
+Deploy the contracts:
+
+```bash
+npm run deploy
+```
+
+## License
+
+Distributed under the MIT License.
