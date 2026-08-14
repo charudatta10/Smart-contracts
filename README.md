@@ -1,5 +1,10 @@
 # Tech interview smart contracts coding problem
 
+<p align="center">
+  <img src="assets/cover.png" alt="Smart-contracts" width="800"/>
+</p>
+
+
 ![Version](https://img.shields.io/github/v/release/charudatta10/Smart-contracts)
 
 This is a Solidity coding problem for tech interviews. It is designed to take **no more than a few hours**.
